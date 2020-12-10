@@ -1,0 +1,24 @@
+{
+  "name": "guillaumealix.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "node-sass node_modules\\bootstrap\\scss\\bootstrap.scss --output css --style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeAlix/guillaumealix.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillaumeAlix/guillaumealix.github.io/issues"
+  },
+  "homepage": "https://github.com/GuillaumeAlix/guillaumealix.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "node-sass": "^5.0.0"
+  }
+}
